@@ -5,31 +5,40 @@ public class Conversion {
 	
 		//Stub method to convert celcius To Fahrenheit 
 	public static double celciusToFahrenheit(double celcius) {
-			return 0.0;
+		//here it returns the temperature in Fahrenheit
+			return (celcius*9/5) + 32;
 	}
 	
 	//Stub method to convert fahrenheit To Celcius
-	public static double fahrenheitToCelcius(double fahrenhei) {
-			return 0.0;
+	public static double fahrenheitToCelcius(double fahrenheit) {
+		//here it returns the temperature in Celcius
+			return (fahrenheit - 32)* 5/9;
 	}
 	
 	//Stub method to convert miles To Kilometer
 	public static double milesToKilometer(double miles) {
-		return 0.0;
+		//here it returns the distance in kilometer
+		return miles*1.60934;
 	}
 	
 	//Stub method to convert kilometer To Miles
 	public static double kilometerToMiles(double kilometer) {
-		return 0.0;
+		//here it returns the distance in miles
+		return kilometer/1.60934;
 	}
 	
-	//Stub method to convert uppercase To Lowercase
+	//Stub method to convert upperCase To LowerCase
 	public static  String uppercaseToLowercase(String uppercase) {
-		return null;
+		//here it returns the string in lowerCase
+		return uppercase.toLowerCase();
 	}
 	
-	//Stub method to convert lowercase To Uppercase
+	//Stub method to convert lowerCase To UpperCase
 	public static String lowercaseToUppercase(String lowercase) {	
-		return null;
+		//here it returns the string in upperCase
+		return lowercase.toUpperCase();
 	}
 }
+
+
+

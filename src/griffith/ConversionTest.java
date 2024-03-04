@@ -50,18 +50,18 @@ public class ConversionTest {
 	@Test
 	public void testUppercaseToLowercase() {
 		//here checking the conversion for different strings
-		assertEquals("JAVA",Conversion.uppercaseToLowercase("java"));
-		assertEquals("PYTHON",Conversion.uppercaseToLowercase("python"));
-		assertEquals("SQL",Conversion.uppercaseToLowercase("sql"));
+		assertEquals("java",Conversion.uppercaseToLowercase("JAVA"));
+		assertEquals("python",Conversion.uppercaseToLowercase("PYTHON"));
+		assertEquals("sql",Conversion.uppercaseToLowercase("SQL"));
 		}
 	
 	//Test Stub method to convert lowercase To Uppercase
 	@Test
 	public void testLowercaseToUppercase() {
 		//here checking the conversion for different strings
-		assertEquals("hello",Conversion.lowercaseToUppercase("HELLO"));
-		assertEquals("world",Conversion.lowercaseToUppercase("WORLD"));
-		assertEquals("griffith",Conversion.lowercaseToUppercase("GRIFFITH"));
+		assertEquals("HELLO",Conversion.lowercaseToUppercase("hello"));
+		assertEquals("WORLD",Conversion.lowercaseToUppercase("world"));
+		assertEquals("GRIFFITH",Conversion.lowercaseToUppercase("griffith"));
 		
 	}
 }
